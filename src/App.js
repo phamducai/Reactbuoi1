@@ -1,11 +1,13 @@
 import "./App.css";
 import BasicExample from "./components/Header";
-
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <h1>halllo</h1>
       <BasicExample />
+      <Body />
+      <Footer />
     </>
   );
 }
